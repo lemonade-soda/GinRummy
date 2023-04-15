@@ -2,13 +2,13 @@ namespace GinRummyLogic;
 
 public class Card
 {
-    public Rank cardRank;
-    public Suit cardSuit;
+    public readonly Rank CardRank;
+    public readonly Suit CardSuit;
 
     public Card(Rank rank, Suit suit)
     {
-        cardRank = rank;
-        cardSuit = suit;
+        CardRank = rank;
+        CardSuit = suit;
     }
 
 

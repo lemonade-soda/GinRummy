@@ -1,12 +1,12 @@
-using System.ComponentModel.DataAnnotations;
-using System.Security.AccessControl;
+/*using System.ComponentModel.DataAnnotations;
+using System.Security.AccessControl;*/
 
 namespace GinRummyLogic;
 
 public class Deck
 {
-    private Random _random = new Random();
-    public List<Card> Cards { get; } = new List<Card>();
+    private readonly Random _random = new Random();
+    public List<Card> Cards { get; set; } = new List<Card>();
 
     private readonly List<Card.Suit> _suits =
         new List<Card.Suit>() {Card.Suit.Spades, Card.Suit.Clubs, Card.Suit.Diamonds, Card.Suit.Hearts};
@@ -18,6 +18,22 @@ public class Deck
         Card.Rank.Nine, Card.Rank.Ten, Card.Rank.Jack, Card.Rank.Queen,
         Card.Rank.King
     };
+    
+    public static bool operator ==(Deck a, Deck b)
+    {
+        for (var i = 0; i < a.Cards.Count; i++)
+        {
+            if (a.Cards[i].CardRank != b.Cards[i].CardRank || a.Cards[i].CardSuit != b.Cards[i].CardSuit)
+                return false;
+        }
+
+        return true;
+    }
+
+    public static bool operator !=(Deck a, Deck b)
+    {
+        return !(a == b);
+    }
 
     public Deck()
     {
@@ -29,21 +45,22 @@ public class Deck
             }
         }
 
-        Cards = Shuffle(Cards);
+        Shuffle(Cards);
     }
 
-    public List<Card> Shuffle(List<Card> cards)
+    public void Shuffle(List<Card> cards)
     {
 
         for (var i = 0; i < cards.Count; i++)
         {
             var j = _random.Next(i);
-            Card temp = new Card(cards[i].cardRank, cards[i].cardSuit);
+            Card temp = new Card(cards[i].CardRank, cards[i].CardSuit);
 
             cards[i] = cards[j];
             cards[j] = temp;
 
         }
-        return cards;
+
+        Cards = cards;
     }
 }

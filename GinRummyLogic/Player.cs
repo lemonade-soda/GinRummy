@@ -7,5 +7,8 @@ public class Player
     private int score = 0;
     private int deadwood = 0;
     private string name;
+    private List<Card?> hand;
     
+    
+
 }

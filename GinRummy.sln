@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GinRummyAPI", "GinRummyAPI\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GinRummyLogic", "GinRummyLogic\GinRummyLogic.csproj", "{983D2B56-48EE-4741-87AD-50E61097245D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{DAFA43BF-146E-4312-BDBF-0BAE99BAF5CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{983D2B56-48EE-4741-87AD-50E61097245D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{983D2B56-48EE-4741-87AD-50E61097245D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{983D2B56-48EE-4741-87AD-50E61097245D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFA43BF-146E-4312-BDBF-0BAE99BAF5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFA43BF-146E-4312-BDBF-0BAE99BAF5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFA43BF-146E-4312-BDBF-0BAE99BAF5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFA43BF-146E-4312-BDBF-0BAE99BAF5CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
