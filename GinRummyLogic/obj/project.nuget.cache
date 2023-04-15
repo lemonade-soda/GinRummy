@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "k7CN8kRQLEaOd4I4mO9evl9SlXnthoBjtbX9ZB7ccCtRyjwjdQ9KhwRN69mRphvC6iR2BWlm7VsPWulEOKOSnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dane\\RiderProjects\\GinRummy\\GinRummyLogic\\GinRummyLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

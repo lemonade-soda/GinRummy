@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GinRummyAPI", "GinRummyAPI\GinRummyAPI.csproj", "{71FCE5EF-3467-4DB1-92C8-54EF625BC059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GinRummyLogic", "GinRummyLogic\GinRummyLogic.csproj", "{983D2B56-48EE-4741-87AD-50E61097245D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71FCE5EF-3467-4DB1-92C8-54EF625BC059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FCE5EF-3467-4DB1-92C8-54EF625BC059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FCE5EF-3467-4DB1-92C8-54EF625BC059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FCE5EF-3467-4DB1-92C8-54EF625BC059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983D2B56-48EE-4741-87AD-50E61097245D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983D2B56-48EE-4741-87AD-50E61097245D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983D2B56-48EE-4741-87AD-50E61097245D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983D2B56-48EE-4741-87AD-50E61097245D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
